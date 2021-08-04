@@ -1,0 +1,26 @@
+{
+  "name": "dbh_first_cli",
+  "version": "0.0.1",
+  "description": "第一次尝试写cli工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "bin": {
+    "dbh-cli": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubaohao/dbh_first_cli.git"
+  },
+  "author": "dubaohao24@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubaohao/dbh_first_cli/issues"
+  },
+  "homepage": "https://github.com/dubaohao/dbh_first_cli#readme",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "inquirer": "^8.1.2"
+  }
+}
